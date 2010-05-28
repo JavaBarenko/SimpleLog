@@ -24,7 +24,7 @@ This characteristic gives the possibility to log a same class, which is used in 
 How can I use it?
 -----------------
 
-*Instancing*
+**Instancing**
 
 Is very simple begin to log a instance, just do it into the class:
 
@@ -41,7 +41,7 @@ Eg:
 	LogConfig logConf = new DefaultLogConfig(LogLevel.WARNING, new RollingFileAppender(new DefaultLayout()));
 	final Log log = new DefaultLog(logConf);
 
-*Layouts*
+**Layouts**
 
 Actually exists three Layouts:
 -_DateLayout_: Simple layout, using only the date and log information
@@ -54,7 +54,7 @@ Actually exists three Layouts:
 	Eg: 2010-05-27 22:14:44.406 [INFO   ] [main                               ] barenko.util.log.LogTest.testAllLogDateLayout (LogTest.java:32)
                                   a logged message...
 
-*Appenders*
+**Appenders**
 
 Actually exists two Layouts:
 -_ConsoleAppender_: Log show in Java Console
